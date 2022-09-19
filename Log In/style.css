@@ -1,0 +1,128 @@
+body{
+    background: #152026;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.showcase{
+   float: left;
+   width: 54%;
+   height: 88%;
+   display: flexbox;
+
+}
+.icon{
+    margin-left: 35%;
+  }
+ .image{
+    height: auto;
+    width: 100%;
+  
+     
+  }
+  .left{
+   float: left;
+   padding: 70px 30px;
+    width: 40%;
+  }
+  .left h1{
+   color: white;
+   margin-top: 45px;
+   font-size: 60px;
+   margin-left: 8px;
+   word-spacing: 4px;
+   font-family: Arial, Helvetica, sans-serif;
+   white-space: inherit;
+
+   }
+   .left h2{
+    margin-top: -15px;
+    align-items: flex-start;
+    font-size: 35px;
+    word-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: inherit;
+    margin-left: 5px;
+    color: white;
+}
+.sign{
+ 
+   display: inline-block;
+   padding: 6px;
+   width: 70%;
+   margin-bottom: 20px;
+   }
+   .sign a{
+   padding: 13px 100px;
+   height: 1.3rem;
+   border: 0;
+   background-color: #068adb;
+   border-radius: 50px;
+   font-weight: bold;
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+    
+    }
+ .sign a:hover{
+     background-color:#6475ba;
+  }
+  .log{
+
+ display: inline-block;
+ width: 70%;
+ padding: 10px;
+ }
+ .log a{
+    padding: 13px 100px;
+    height: 1.3rem;
+    border: 0;
+    background-color: #152026;
+    border: 1px solid #068adb;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+     
+     }
+.log a:hover{
+        background-color:#6475ba;
+        transition: .15s ease-in-out;
+}     
+.footer{
+  float: left;
+  width: 100%;
+}  
+.footer ul{
+    list-style: none;
+  }  
+.footer li{
+    display: inline-block;
+    padding: 4px;
+    margin: 2px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }  
+
+.footer a{
+   text-decoration: none;
+   color: rgb(151, 150, 150);
+  }  
+.footer a :hover{
+    text-decoration: underline;
+    
+   }  
+.footer p{
+    margin-top: 0;
+    text-align: center;
+    color: rgb(5, 121, 121);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }  
